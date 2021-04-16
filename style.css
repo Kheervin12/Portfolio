@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.header_container {
+    color: #fff;
+    background-color: rgb(83, 15, 83);
+    padding: 30px;
+    height: 150px;
+}
+
+.header_container h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(65, 64, 64) 0%, gray 30%, gold 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.header_container h2 {
+    font-family: 'Lobster', cursive;
+    margin-top: 0;
+    margin-left: 220px;
+    font-style: italic;
+    font-size: 22px;
+    background-image: linear-gradient(to top, rgb(65, 64, 64) 0%, gray 2%, white 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;    
+}
+
+.contact_container {
+    color: snow;
+    background-color: rgb(83, 15, 83);
+    text-align: center;
+    height: 80px;
+}
+
+.contact_head {
+    width: 850px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contact_container h2 {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    background-image: linear-gradient(to top, rgb(65, 64, 64) 0%, gray 50%, gold 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.information h3 {
+    display: grid;
+    justify-content: space-around;
+    font-style: italic;
+    background-image: linear-gradient(to top, rgb(65, 64, 64) 0%, gray 2%, white 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+/* Education Section CSS */
+
+.education {
+    background-image: url(/images/Book_Image.jpg);
+    background-color: snow;
+    background-size: cover;
+    background-position: top right;
+}
+
+.education_header {
+    font-family: 'Lobster', cursive;
+    color: white;
+    height: 65px;
+}
+
+.education_header h2 {
+    font-size: 30px;
+    margin-left: 120px;
+    padding-top: 15px;
+    color: grey;
+}
+
+.education_body {
+    display: grid;
+    justify-content: space-between;
+}
+
+.education_primary {
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 120px;
+    border-bottom: 1.5px dashed black;
+}
+
+.education_secondary {
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 120px;
+    border-bottom: 1.5px dashed black;
+}
+
+.education_tertiary {
+    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.education_primary h3 {
+    font-family: 'Lobster', cursive;
+}
+
+.education_secondary h3 {
+    font-family: 'Lobster', cursive;
+}
+
+.education_tertiary h3 {
+    font-family: 'Lobster', cursive;
+}
+
+
+/* Experience Section CSS */
+.experience {
+    background-image: url(/images/Experience_image.jpg);
+    background-size: cover;
+    background-position: top right;
+}
+
+.experience_header h2 {
+    font-size: 30px;
+    margin-left: 120px;
+    padding-top: 20px;
+    color: grey;
+    font-family: 'Lobster', cursive;
+}
+
+.experience_ {
+    display: flex;
+    border-bottom: 2px dashed grey;
+    width: 1000px;
+    margin-left: 70px;
+    padding-bottom: 30px;
+}
+.experience > .experience_:last-of-type {
+    border-bottom: none;
+}
+
+.experience__ img {
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.experience_1 {
+    font-family: 'Lobster', cursive;
+    justify-content: space-between;
+    color: gray;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.experience_1 h2 {
+    color: snow;
+}
+
+.experience_1 p {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.experience_1 a {
+    background-color:darkblue;
+    font-size: 20px;
+    border-radius: 5%;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border: grey;
+    color:white;
+}
+
+.experience_1 a:hover {
+    background-color: rgba(0, 0, 139, 0.466);
+}
+
+/* Footer Section CSS */
+footer {
+    height: 150px;
+    background-color: rgb(83, 15, 83);
+    display: grid;
+    text-align: center;
+}
+
+.footer_ h2 {
+    margin-top: 20px;
+    color: grey;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+    background-image: linear-gradient(to top, rgb(65, 64, 64) 0%, gray 30%, white 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    /* text-align: center; */
+}
+
+.footer__ a {
+    color: snow;
+    padding: 0 20px;
+    /* margin-top: 100px; */
+    text-decoration: none;
+    /* text-align: center; */
+}
+.footer__{
+    align-self: base;
+}
